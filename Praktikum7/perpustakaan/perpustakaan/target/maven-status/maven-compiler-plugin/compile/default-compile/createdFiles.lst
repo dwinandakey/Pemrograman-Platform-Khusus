@@ -1,0 +1,15 @@
+com\polstat\perpustakaan\dto\BookDto.class
+com\polstat\perpustakaan\mapper\BookMapper.class
+com\polstat\perpustakaan\controller\JsonRpcController.class
+com\polstat\perpustakaan\rpc\JsonRpcResponse.class
+com\polstat\perpustakaan\entity\Loan$LoanBuilder.class
+com\polstat\perpustakaan\rpc\JsonRpcRequest.class
+com\polstat\perpustakaan\PerpustakaanApplication.class
+com\polstat\perpustakaan\service\BookServiceImpl.class
+com\polstat\perpustakaan\entity\Book$BookBuilder.class
+com\polstat\perpustakaan\service\BookService.class
+com\polstat\perpustakaan\entity\Book.class
+com\polstat\perpustakaan\repository\BookRepository.class
+com\polstat\perpustakaan\dto\BookDto$BookDtoBuilder.class
+com\polstat\perpustakaan\repository\LoanRepository.class
+com\polstat\perpustakaan\entity\Loan.class

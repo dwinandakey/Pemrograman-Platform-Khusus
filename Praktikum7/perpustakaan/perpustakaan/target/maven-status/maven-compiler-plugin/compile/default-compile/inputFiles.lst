@@ -1,0 +1,14 @@
+C:\Users\Dwinanda\OneDrive\Documents\STIS\Praktikum dan Coding\3SI1\Pemrograman Platform Khusus\Praktikum 4\perpustakaan\perpustakaan\src\main\java\com\polstat\perpustakaan\controller\JsonRpcController.java
+C:\Users\Dwinanda\OneDrive\Documents\STIS\Praktikum dan Coding\3SI1\Pemrograman Platform Khusus\Praktikum 4\perpustakaan\perpustakaan\src\main\java\com\polstat\perpustakaan\dto\BookDto.java
+C:\Users\Dwinanda\OneDrive\Documents\STIS\Praktikum dan Coding\3SI1\Pemrograman Platform Khusus\Praktikum 4\perpustakaan\perpustakaan\src\main\java\com\polstat\perpustakaan\entity\Book.java
+C:\Users\Dwinanda\OneDrive\Documents\STIS\Praktikum dan Coding\3SI1\Pemrograman Platform Khusus\Praktikum 4\perpustakaan\perpustakaan\src\main\java\com\polstat\perpustakaan\entity\Loan.java
+C:\Users\Dwinanda\OneDrive\Documents\STIS\Praktikum dan Coding\3SI1\Pemrograman Platform Khusus\Praktikum 4\perpustakaan\perpustakaan\src\main\java\com\polstat\perpustakaan\entity\Member.java
+C:\Users\Dwinanda\OneDrive\Documents\STIS\Praktikum dan Coding\3SI1\Pemrograman Platform Khusus\Praktikum 4\perpustakaan\perpustakaan\src\main\java\com\polstat\perpustakaan\mapper\BookMapper.java
+C:\Users\Dwinanda\OneDrive\Documents\STIS\Praktikum dan Coding\3SI1\Pemrograman Platform Khusus\Praktikum 4\perpustakaan\perpustakaan\src\main\java\com\polstat\perpustakaan\PerpustakaanApplication.java
+C:\Users\Dwinanda\OneDrive\Documents\STIS\Praktikum dan Coding\3SI1\Pemrograman Platform Khusus\Praktikum 4\perpustakaan\perpustakaan\src\main\java\com\polstat\perpustakaan\repository\BookRepository.java
+C:\Users\Dwinanda\OneDrive\Documents\STIS\Praktikum dan Coding\3SI1\Pemrograman Platform Khusus\Praktikum 4\perpustakaan\perpustakaan\src\main\java\com\polstat\perpustakaan\repository\LoanRepository.java
+C:\Users\Dwinanda\OneDrive\Documents\STIS\Praktikum dan Coding\3SI1\Pemrograman Platform Khusus\Praktikum 4\perpustakaan\perpustakaan\src\main\java\com\polstat\perpustakaan\repository\MemberRepository.java
+C:\Users\Dwinanda\OneDrive\Documents\STIS\Praktikum dan Coding\3SI1\Pemrograman Platform Khusus\Praktikum 4\perpustakaan\perpustakaan\src\main\java\com\polstat\perpustakaan\rpc\JsonRpcRequest.java
+C:\Users\Dwinanda\OneDrive\Documents\STIS\Praktikum dan Coding\3SI1\Pemrograman Platform Khusus\Praktikum 4\perpustakaan\perpustakaan\src\main\java\com\polstat\perpustakaan\rpc\JsonRpcResponse.java
+C:\Users\Dwinanda\OneDrive\Documents\STIS\Praktikum dan Coding\3SI1\Pemrograman Platform Khusus\Praktikum 4\perpustakaan\perpustakaan\src\main\java\com\polstat\perpustakaan\service\BookService.java
+C:\Users\Dwinanda\OneDrive\Documents\STIS\Praktikum dan Coding\3SI1\Pemrograman Platform Khusus\Praktikum 4\perpustakaan\perpustakaan\src\main\java\com\polstat\perpustakaan\service\BookServiceImpl.java
