@@ -1,16 +1,8 @@
-package com.polstat.perpustakaan.entity;
+package com.polstat.parkir.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import jakarta.persistence.*;
+import lombok.*;
+
 @Setter
 @Getter
 @AllArgsConstructor
@@ -18,14 +10,25 @@ import lombok.Setter;
 @Builder
 @Entity
 @Table(name = "users")
-public class User{
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     @Column(nullable = false)
     private String name;
-    @Column(nullable = false)
+
+    @Column(nullable = false, unique = true)
     private String email;
+
     @Column(nullable = false)
     private String password;
+
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    private Role role;
+
+    public boolean isCivitasAkademik() {
+        return role == Role.DOSEN || role == Role.MAHASISWA || role == Role.KARYAWAN || role == Role.ADMIN;
+    }
 }

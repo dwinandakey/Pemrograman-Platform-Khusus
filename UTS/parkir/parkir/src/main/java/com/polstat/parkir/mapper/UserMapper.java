@@ -1,7 +1,7 @@
-package com.polstat.perpustakaan.mapper;
+package com.polstat.parkir.mapper;
 
-import com.polstat.perpustakaan.dto.UserDto;
-import com.polstat.perpustakaan.entity.User;
+import com.polstat.parkir.dto.UserDto;
+import com.polstat.parkir.entity.User;
 public class UserMapper {
     public static User mapToUser(UserDto userDto){
         return User.builder()
@@ -9,6 +9,7 @@ public class UserMapper {
                 .name(userDto.getName())
                 .email(userDto.getEmail())
                 .password(userDto.getPassword())
+                .role(userDto.getRole())
                 .build();
     }
     public static UserDto mapToUserDto(User user){
@@ -17,6 +18,7 @@ public class UserMapper {
                 .name(user.getName())
                 .password(user.getPassword())
                 .email(user.getEmail())
+                .role(user.getRole())
                 .build();
     }
 }

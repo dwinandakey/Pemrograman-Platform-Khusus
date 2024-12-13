@@ -1,4 +1,4 @@
-package com.polstat.perpustakaan.auth;
+package com.polstat.parkir.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,5 +1,6 @@
-package com.polstat.perpustakaan.auth;
-import com.polstat.perpustakaan.dto.UserDto;
+package com.polstat.parkir.auth;
+import com.polstat.parkir.dto.UserDto;
+import com.polstat.parkir.service.CustomUserDetailsService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -20,17 +21,23 @@ public class JwtFilter extends OncePerRequestFilter {
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
             throws ServletException, IOException {
-        if (!hasAuthorizationBearer(request)) {
+        try {
+            if (!hasAuthorizationBearer(request)) {
+                filterChain.doFilter(request, response);
+                return;
+            }
+
+            String token = getAccessToken(request);
+            if (!jwtUtil.validateAccessToken(token)) {
+                filterChain.doFilter(request, response);
+                return;
+            }
+
+            setAuthenticationContext(token, request);
             filterChain.doFilter(request, response);
-            return;
+        } catch (Exception e) {
+            logger.error("Cannot set user authentication: {}", e);
         }
-        String token = getAccessToken(request);
-        if (!jwtUtil.validateAccessToken(token)) {
-            filterChain.doFilter(request, response);
-            return;
-        }
-        setAuthenticationContext(token, request);
-        filterChain.doFilter(request, response);
     }
     private boolean hasAuthorizationBearer(HttpServletRequest request) {
         String header = request.getHeader("Authorization");
@@ -40,16 +47,20 @@ public class JwtFilter extends OncePerRequestFilter {
         String header = request.getHeader("Authorization");
         return header.split(" ")[1].trim();
     }
-    private void setAuthenticationContext(String token, HttpServletRequest request) {
+    private void setAuthenticationContext(String token, HttpServletRequest
+            request) {
         UserDetails userDetails = getUserDetails(token);
-        UsernamePasswordAuthenticationToken authentication = new
-                UsernamePasswordAuthenticationToken(userDetails, null, null);
-        authentication.setDetails(
-                new WebAuthenticationDetailsSource().buildDetails(request));
+        UsernamePasswordAuthenticationToken authentication =
+                new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
+
+        authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
         SecurityContextHolder.getContext().setAuthentication(authentication);
     }
+    @Autowired
+    private CustomUserDetailsService customUserDetailsService;
+
     private UserDetails getUserDetails(String token) {
         String subject = jwtUtil.getSubject(token);
-        return UserDto.builder().email(subject).build();
+        return customUserDetailsService.loadUserByUsername(subject);
     }
 }

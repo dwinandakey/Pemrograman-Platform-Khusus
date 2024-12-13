@@ -1,5 +1,4 @@
-package com.polstat.perpustakaan.auth;
-
+package com.polstat.parkir.auth;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;
@@ -11,6 +10,11 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.stream.Collectors;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.GrantedAuthority;
+
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetails;
 @Component
@@ -21,8 +25,12 @@ public class JwtUtil implements Serializable {
     private long EXPIRE_DURATION;
     public String generateAccessToken(Authentication authentication) {
         UserDetails userDetails = (UserDetails) authentication.getPrincipal();
+        String authorities = userDetails.getAuthorities().stream()
+                .map(GrantedAuthority::getAuthority)
+                .collect(Collectors.joining(","));
         return Jwts.builder()
                 .setSubject(userDetails.getUsername())
+                .claim("authorities", authorities)
                 .setIssuer("Polstat")
                 .setIssuedAt(new Date())
                 .setExpiration(new Date(System.currentTimeMillis() + EXPIRE_DURATION))
@@ -47,7 +55,6 @@ public class JwtUtil implements Serializable {
         }
         return false;
     }
-
     public String getSubject(String token) {
         return parseClaims(token).getSubject();
     }
