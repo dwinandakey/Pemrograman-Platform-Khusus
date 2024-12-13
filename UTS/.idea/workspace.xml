@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d575c3c0-693b-4899-851b-caa05872b29e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/parkir/parkir/222212576_3SI1_Dwinanda Muhammad Keyzha_UTS PPK.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 3/perpustakaan/perpustakaan/UML_Parkir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 4/perpustakaan/perpustakaan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 4/perpustakaan/perpustakaan/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 4/perpustakaan/perpustakaan/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 4/perpustakaan/perpustakaan/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/controller/BookGraphqlController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/controller/BookGraphqlController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/controller/MemberGraphqlController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/controller/MemberGraphqlController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/dto/MemberDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/dto/MemberDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/mapper/MemberMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/mapper/MemberMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/resources/graphql/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/resources/graphql/schema.graphqls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/auth/AuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/auth/AuthRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/auth/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/auth/AuthResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/auth/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/auth/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/auth/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/auth/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/auth/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/auth/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkir/parkir/222212576_3SI1_Dwinanda Muhammad Keyzha_UTS PPK.docx" beforeDir="false" afterPath="$PROJECT_DIR$/parkir/parkir/222212576_3SI1_Dwinanda Muhammad Keyzha_UTS PPK.docx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ogOakLCTXqHgpoLBWqCcFqBfUx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ParkirApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/laragon/www/pst-menjawab",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ParkirApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="parkir" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.polstat.parkir.ParkirApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d575c3c0-693b-4899-851b-caa05872b29e" name="Changes" comment="" />
+      <created>1731287817741</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731287817741</updated>
+      <workItem from="1731287818828" duration="5822000" />
+      <workItem from="1731293687474" duration="2584000" />
+      <workItem from="1731331334687" duration="6024000" />
+      <workItem from="1731497080890" duration="22944000" />
+      <workItem from="1731548356882" duration="12082000" />
+      <workItem from="1731567952666" duration="33770000" />
+      <workItem from="1731610370857" duration="15497000" />
+      <workItem from="1732516617256" duration="283000" />
+      <workItem from="1732712997638" duration="91000" />
+      <workItem from="1733125126390" duration="124000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

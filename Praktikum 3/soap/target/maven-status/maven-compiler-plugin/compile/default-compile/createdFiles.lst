@@ -1,0 +1,7 @@
+com\example\soap\gen\Currency.class
+com\example\soap\gen\Country.class
+com\example\soap\gen\ObjectFactory.class
+com\example\soap\gen\package-info.class
+jar\soap\Soap.class
+com\example\soap\gen\GetCountryRequest.class
+com\example\soap\gen\GetCountryResponse.class

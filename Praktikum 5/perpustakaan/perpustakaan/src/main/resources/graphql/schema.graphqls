@@ -1,0 +1,36 @@
+type Book {
+    id: ID
+    title: String
+    author: String
+    description: String
+}
+
+type Member {
+    id: ID
+    memberID: String
+    name: String
+    address: String
+    phoneNumber: String
+}
+
+type Query {
+    # Book queries
+    books: [Book]
+    bookById(id: ID): Book
+
+    # Member queries
+    members: [Member]
+    memberById(id: ID): Member
+}
+
+type Mutation {
+    # Book mutations
+    createBook(title: String!, description: String, author: String!): Book!
+    updateBook(id: String!, title: String!, description: String, author: String!): Book!
+    deleteBook(id: String!): Book
+
+    # Member mutations
+    createMember(memberID: String!, name: String!, address: String!, phoneNumber: String): Member!
+    updateMember(id: ID!, memberID: String!, name: String!, address: String!, phoneNumber: String): Member!
+    deleteMember(id: ID!): Member
+}

@@ -1,0 +1,69 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://polstat.com/perpustakaan/gen"
+    xmlns="http://polstat.com/perpustakaan/gen" elementFormDefault="qualified">
+
+    <!-- Request untuk menambahkan buku -->
+    <xs:element name="AddBookRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="title" type="xs:string"/>
+                <xs:element name="author" type="xs:string"/>
+                <xs:element name="description" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Response setelah buku ditambahkan -->
+    <xs:element name="AddBookResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Request untuk mendapatkan semua buku -->
+    <xs:element name="GetAllBookRequest">
+        <xs:complexType/>
+    </xs:element>
+    
+    <!-- Response yang berisi daftar semua buku -->
+    <xs:element name="GetAllBookResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="bookList" type="BookType" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Request untuk mencari buku -->
+    <xs:element name="searchBooksRequest">
+        <xs:complexType>
+            <xs:choice>
+                <xs:sequence>
+                    <xs:element name="author" type="xs:string"/>
+                    <xs:element name="title" type="xs:string"/>
+                </xs:sequence>
+                <xs:element name="search" type="xs:string"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Response yang berisi daftar pencarian buku -->
+    <xs:element name="searchBooksResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="books" type="BookType" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Tipe Buku yang digunakan di response -->
+    <xs:complexType name="BookType">
+        <xs:sequence>
+            <xs:element name="id" type="xs:long"/>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="author" type="xs:string"/>
+            <xs:element name="description" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
