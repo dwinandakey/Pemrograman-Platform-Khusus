@@ -5,37 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d575c3c0-693b-4899-851b-caa05872b29e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/parkir/parkir/222212576_3SI1_Dwinanda Muhammad Keyzha_UTS PPK.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 3/perpustakaan/perpustakaan/UML_Parkir.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 4/perpustakaan/perpustakaan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 4/perpustakaan/perpustakaan/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 4/perpustakaan/perpustakaan/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 4/perpustakaan/perpustakaan/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/controller/BookGraphqlController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/controller/BookGraphqlController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/controller/MemberGraphqlController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/controller/MemberGraphqlController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/dto/MemberDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/dto/MemberDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/mapper/MemberMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/mapper/MemberMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/resources/graphql/schema.graphqls" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 5/perpustakaan/perpustakaan/src/main/resources/graphql/schema.graphqls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/auth/AuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/auth/AuthRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/auth/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/auth/AuthResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/auth/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/auth/JwtFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/auth/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/auth/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/auth/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/auth/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/dto/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/CustomUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Praktikum 6/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parkir/parkir/222212576_3SI1_Dwinanda Muhammad Keyzha_UTS PPK.docx" beforeDir="false" afterPath="$PROJECT_DIR$/parkir/parkir/222212576_3SI1_Dwinanda Muhammad Keyzha_UTS PPK.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/androidTest/java/com/example/aplikasiintent/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/java/com/example/aplikasiintent/DetailActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/java/com/example/aplikasiintent/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/java/com/example/aplikasiintent/ui/theme/Color.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/java/com/example/aplikasiintent/ui/theme/Theme.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/java/com/example/aplikasiintent/ui/theme/Type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/res/layout/activity_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/app/src/test/java/com/example/aplikasiintent/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/AplikasiIntent/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P11/intent/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P12/RecyclerViewPractice/app/src/main/java/com/example/recyclerviewpractice/Mahasiswa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P12/RecyclerViewPractice/app/src/main/java/com/example/recyclerviewpractice/MahasiswaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P12/RecyclerViewPractice/app/src/main/res/layout/layout_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../P12/RecyclerViewPractice/app/src/main/res/layout/row_mahasiswa.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P10/kalkulator/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P10/kalkulator/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P10/kalkulator/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P10/kalkulator/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,7 +75,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -54,6 +84,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -65,30 +96,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.ParkirApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/laragon/www/pst-menjawab",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ParkirApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dwinanda/AndroidStudioProjects/PPK/UTS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ParkirApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="parkir" />
@@ -124,6 +155,9 @@
       <workItem from="1732516617256" duration="283000" />
       <workItem from="1732712997638" duration="91000" />
       <workItem from="1733125126390" duration="124000" />
+      <workItem from="1734052453765" duration="122000" />
+      <workItem from="1734052588415" duration="22000" />
+      <workItem from="1736384928481" duration="464000" />
     </task>
     <servers />
   </component>
