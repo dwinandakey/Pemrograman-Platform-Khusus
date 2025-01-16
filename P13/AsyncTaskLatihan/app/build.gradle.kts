@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.recyclerviewpractice"
+    namespace = "com.example.asynctasklatihan"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.recyclerviewpractice"
+        applicationId = "com.example.asynctasklatihan"
         minSdk = 28
-        targetSdk = 35
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -50,8 +50,6 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.constraintlayout)
-    implementation(libs.androidx.recyclerview)
-    implementation(libs.androidx.cardview)
     implementation(libs.androidx.appcompat)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
