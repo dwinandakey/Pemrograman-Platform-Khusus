@@ -48,4 +48,27 @@ public class BookServiceImpl implements BookService {
                         .build())
                 .collect(Collectors.toList());
     }
+
+    @Override
+    public void updateBook(BookDto bookDto) {
+        // Cari buku berdasarkan ID
+        Book existingBook = bookRepository.findById(bookDto.getId())
+                .orElseThrow(() -> new RuntimeException("Book not found"));
+
+        // Update fields
+        existingBook.setTitle(bookDto.getTitle());
+        existingBook.setAuthor(bookDto.getAuthor());
+        existingBook.setDescription(bookDto.getDescription());
+
+        bookRepository.save(existingBook);
+    }
+
+    @Override
+    public void deleteBook(Long id) {
+        // Cari buku berdasarkan ID
+        Book book = bookRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Book not found"));
+
+        bookRepository.delete(book);
+    }
 }
