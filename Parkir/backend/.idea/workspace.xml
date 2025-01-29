@@ -4,37 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d575c3c0-693b-4899-851b-caa05872b29e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../P14/APIPractice/app/src/main/java/com/example/apipractice/ApiClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/APIPractice/app/src/main/java/com/example/apipractice/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/APIPractice/app/src/main/java/com/example/apipractice/BookAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/APIPractice/app/src/main/java/com/example/apipractice/BookApiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/APIPractice/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/APIPractice/app/src/main/res/layout/dialog_add_book.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/APIPractice/app/src/main/res/layout/dialog_search_book.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/SQLitePractice/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/SQLitePractice/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/SQLitePractice/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/SQLitePractice/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/SQLitePractice/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/SQLitePractice/.idea/migrations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/SQLitePractice/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/SQLitePractice/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/SQLitePractice/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/SQLitePractice/app/src/main/java/com/example/sqlitepractice/DBHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/SQLitePractice/app/src/main/java/com/example/sqlitepractice/MahasiswaModal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/SQLitePractice/app/src/main/java/com/example/sqlitepractice/MahasiswaRVAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/SQLitePractice/app/src/main/java/com/example/sqlitepractice/UpdateMahasiswaActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/SQLitePractice/app/src/main/java/com/example/sqlitepractice/ViewMahasiswa.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/SQLitePractice/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/SQLitePractice/app/src/main/res/layout/activity_update_mahasiswa.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/SQLitePractice/app/src/main/res/layout/activity_view_mahasiswa.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../P14/SQLitePractice/app/src/main/res/layout/mahasiwa_rv_item.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Praktikum 4/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Praktikum 4/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Praktikum 4/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Praktikum 4/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Praktikum 4/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Praktikum 4/perpustakaan/perpustakaan/src/main/java/com/polstat/perpustakaan/service/BookServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="d575c3c0-693b-4899-851b-caa05872b29e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,30 +42,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.ParkirApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Dwinanda/AndroidStudioProjects/PPK/Parkir/backend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ParkirApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dwinanda/AndroidStudioProjects/PPK/Parkir/backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ParkirApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="parkir" />
@@ -137,6 +107,9 @@
       <workItem from="1737593953293" duration="1132000" />
       <workItem from="1737596396282" duration="23000" />
       <workItem from="1737597877628" duration="802000" />
+      <workItem from="1737817737942" duration="3425000" />
+      <workItem from="1738138398611" duration="7424000" />
+      <workItem from="1738155935448" duration="4789000" />
     </task>
     <servers />
   </component>
